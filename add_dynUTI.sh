@@ -9,7 +9,7 @@ if [ $# -lt 2 ]; then
 	echo "    $0 ANY_APD_FILE QLGENERATOR_FILE" 2>&1
 	echo "" 2>&1
 	echo "example:" 2>&1
-	echo "    $0 ./test.apd ~/Library/QuickLook/QuickLookAzpainter.qlgenerator" 2>&1
+	echo "    $0 ./testv4.apd ~/Library/QuickLook/QuickLookAzpainter.qlgenerator" 2>&1
 	exit 1
 fi
 

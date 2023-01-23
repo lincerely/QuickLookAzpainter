@@ -10,12 +10,12 @@
 		440BBDE80B0537AC0075B7E5 /* QuickLookAzpainter.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D576316048677EA00EA77CD /* QuickLookAzpainter.qlgenerator */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		627414860B4EEC0B0069E3AD /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627414850B4EEC0B0069E3AD /* ApplicationServices.framework */; };
 		6274148C0B4EED590069E3AD /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6274148B0B4EED590069E3AD /* CoreServices.framework */; };
-		8A57EA76297DC8C100D6197E /* apd_v4.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A57EA75297DC8C100D6197E /* apd_v4.c */; };
+		8A57EA76297DC8C100D6197E /* apd.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A57EA75297DC8C100D6197E /* apd.c */; };
 		8AC06FBD297E067900D051A0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8AC06FBC297E067900D051A0 /* LICENSE */; };
 		8AE1AFEB297959A4008CF761 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1AFE9297959A3008CF761 /* GeneratePreviewForURL.c */; };
 		8AE1AFEC297959A4008CF761 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1AFEA297959A4008CF761 /* GenerateThumbnailForURL.c */; };
 		8AE1B0F029796621008CF761 /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE1B0EF29796621008CF761 /* libz.1.tbd */; };
-		8AE1B0F229796A26008CF761 /* apd_v4.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE1B0F129796A26008CF761 /* apd_v4.h */; };
+		8AE1B0F229796A26008CF761 /* apd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE1B0F129796A26008CF761 /* apd.h */; };
 		8D576312048677EA00EA77CD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB77B6FE84183AC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
 		8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B49A704867FD3000E48DA /* InfoPlist.strings */; };
 		F23287A00A761867004F5233 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F232879F0A761867004F5233 /* Cocoa.framework */; };
@@ -41,13 +41,13 @@
 		622150340BBDD60C00126F4B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		627414850B4EEC0B0069E3AD /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
 		6274148B0B4EED590069E3AD /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
-		8A57EA75297DC8C100D6197E /* apd_v4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = apd_v4.c; sourceTree = "<group>"; };
+		8A57EA75297DC8C100D6197E /* apd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = apd.c; sourceTree = "<group>"; };
 		8AC06FBB297E054700D051A0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8AC06FBC297E067900D051A0 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8AE1AFE9297959A3008CF761 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
 		8AE1AFEA297959A4008CF761 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
 		8AE1B0EF29796621008CF761 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
-		8AE1B0F129796A26008CF761 /* apd_v4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = apd_v4.h; sourceTree = "<group>"; };
+		8AE1B0F129796A26008CF761 /* apd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = apd.h; sourceTree = "<group>"; };
 		8D576316048677EA00EA77CD /* QuickLookAzpainter.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickLookAzpainter.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		F232879F0A761867004F5233 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = /System/Library/Frameworks/QuickLook.framework; sourceTree = "<absolute>"; };
@@ -109,8 +109,8 @@
 				8AE1AFE9297959A3008CF761 /* GeneratePreviewForURL.c */,
 				8AE1AFEA297959A4008CF761 /* GenerateThumbnailForURL.c */,
 				08FB77B6FE84183AC02AAC07 /* main.c */,
-				8AE1B0F129796A26008CF761 /* apd_v4.h */,
-				8A57EA75297DC8C100D6197E /* apd_v4.c */,
+				8AE1B0F129796A26008CF761 /* apd.h */,
+				8A57EA75297DC8C100D6197E /* apd.c */,
 			);
 			name = "Quick Look Generator";
 			sourceTree = "<group>";
@@ -130,7 +130,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AE1B0F229796A26008CF761 /* apd_v4.h in Headers */,
+				8AE1B0F229796A26008CF761 /* apd.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +234,7 @@
 				8D576312048677EA00EA77CD /* main.c in Sources */,
 				8AE1AFEC297959A4008CF761 /* GenerateThumbnailForURL.c in Sources */,
 				8AE1AFEB297959A4008CF761 /* GeneratePreviewForURL.c in Sources */,
-				8A57EA76297DC8C100D6197E /* apd_v4.c in Sources */,
+				8A57EA76297DC8C100D6197E /* apd.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

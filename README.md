@@ -2,7 +2,7 @@
 
 Quicklook preview generator for Azpainter data.
 
-Currently only support `APD` version 4.
+Currently support `APD` version 3 and 4.
 
 This program generates preview by extracting the embedded single picture image from the APD. This embedding should be enabled by default. 
 
@@ -16,6 +16,7 @@ Just build from Xcode, `QuickLookAzpainter.qlgenerator` would be copied to `~/Li
 
 - [Azpainter Homepage](http://azsky2.html.xdomain.jp/soft/azpainter.html)
 - [Hexfiend binary template for APD v4](https://github.com/lincerely/HexFiend_templates/blob/master/APDv4.tcl)
+- [Azpainterb Hompage](http://azsky2.html.xdomain.jp/soft/azpainterb.html)
 
 ## License
 
