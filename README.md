@@ -10,6 +10,14 @@ To check your settings, open menu "Setting > Environmental setting > Flags", mak
 
 ## Install
 
+### Install prebuilt binary
+
+Download lastest release.zip from [Github's release page](https://github.com/lincerely/QuickLookAzpainter/releases).
+
+Then, unzip it and open `install.command` (or right-click -> open, if it can't be opened because of unidentified developer).
+
+### Build from source
+
 Just build from Xcode, `QuickLookAzpainter.qlgenerator` would be copied to `~/Library/QuickLook/` automatically. After that, a bash script [add_dynUTI.sh](./add_dynUTI.sh) would run to determine appropriate dynamic UTI and added to the installed generator.
 
 ## Related Links
